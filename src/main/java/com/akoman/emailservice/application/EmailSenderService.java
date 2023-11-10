@@ -1,10 +1,12 @@
 package com.akoman.emailservice.application;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.akoman.emailservice.adapters.EmailSenderGateway;
 import com.akoman.emailservice.core.EmailSenderUserCase;
 
+@Service
 public class EmailSenderService implements EmailSenderUserCase{
 
 	
